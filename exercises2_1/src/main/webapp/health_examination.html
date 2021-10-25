@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>健康チェックページ</title>
+</head>
+<body>
+	<header><h1>健康チェック</h1></header>
+	<main>
+		<form action="health_examination_result.jsp" method="get">
+		<p>お名前<input type="text" name="name"></p>
+			<p>
+				健康チェック<br>
+				<label><input type="checkbox" name="health">タバコをすう</label>
+				<label><input type="checkbox" name="health">お酒を飲む</label>
+				<label><input type="checkbox" name="health">運動不足である</label>
+				<label><input type="checkbox" name="health">睡眠時間が少ない</label>
+			</p>
+			<p>
+				<input type="submit" value="送信"> <input type="reset" value="クリア">
+			</p>
+		</form>
+	</main>
+</body>
+</html>
